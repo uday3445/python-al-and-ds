@@ -12,7 +12,7 @@ def gcd(m, n):
     for i in fm:
         if i in fn:
             cf.append(i)
-    return(cf)
+    return(cf[-1])
 
 
 num1 = int(input("The first number  is "))
