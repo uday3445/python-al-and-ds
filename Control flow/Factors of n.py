@@ -13,3 +13,13 @@ def factors(n):
 print(factors(99))
 
 
+def factors1(n):
+    if n<=0:
+        return (1)
+    else:
+     val=n*factors1(n-1)
+     print(val)
+     return (val)
+
+y= factors1(5)
+print(y)
