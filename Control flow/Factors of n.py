@@ -10,7 +10,8 @@ def factors(n):
             flist=flist+[i]
     return (flist)
 
-print(factors(99))
+
+print("The cactors are", factors(99))
 
 
 def factors1(n):
@@ -20,6 +21,14 @@ def factors1(n):
      val=n*factors1(n-1)
      print(val)
      return (val)
+
+def isprime(n):
+    return (factors(n)==[1,n])
+
+z=isprime(2)
+print(z)
+
+
 
 y= factors1(5)
 print(y)
