@@ -35,14 +35,14 @@ z =input(print("enter the number"))
 
 c=factors(int(z))
 
-print(c)
+print("the factors of ,",z,"",c)
 f=isprime(int(z))
-print(f)
+print("is",z,"prime",f)
 
 u=uprime(int(z))
-print(u)
+print("list of primes upto",z,"are",u)
 print(len(u))
 
 k=nprime(int(z))
-print(k)
+print("first ",z," Prime numbers are",k)
 
